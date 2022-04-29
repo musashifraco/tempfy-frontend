@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  font-size: 100%;
+  color: inherit;
+  text-decoration: none;
+  list-style: none;
+  vertical-align: baseline;
+}
+
+html, body {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+
+  height: 100%;
+  width: 100%;
+
+  background-color: var(--black);
+}
+
+:root {
+  --yellow: #FFA400;
+  --black: #000000;
+  --blue: #009FFD;
+  --white: #FFFFFF;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 100%;
+  width: 100%;
+}
+
+#logoImage {
+  height: 100px;
+  width: 200px;
+}
+
+#temperatureCalculator {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 450px;
+  width: 420px;
+  gap: 40px;
+  border-radius: 20px;
+
+  background-color: var(--blue);
+}
+
+#converter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  gap: 15px;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  font-size: 21px;
+  font-weight: 500;
+
+  color: var(--white);
+}
+
+input {
+  display: flex;
+  justify-content: center;
+
+  font-size: 12px;
+
+  width: 265px;
+  height: 35px;
+  padding: 0 15px 0 15px ;
+  border-radius: 4px;
+}
+
+input:nth-of-type(3) {
+  color: var(--white);
+  background-color: var(--yellow);
+}
+
+#results {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  gap: 15px;
+}
+
+p {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  font-size: 12px;
+
+  width: 275px;
+  height: 35px;
+  padding: 0 15px 0 15px ;
+  border-radius: 4px;
+
+  background-color: var(--white);
+}
+
+.hidden {
+  display: none;
+}
+
+.blue {
+  color: var(--blue);
+}
+
+span {
+  color: var(--black)
+}
