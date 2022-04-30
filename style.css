@@ -25,7 +25,8 @@ html, body {
 
 :root {
   --yellow: #FFA400;
-  --black: #000000;
+  --yellow2: #ffaf1c;
+  --black: #232528;
   --blue: #009FFD;
   --white: #FFFFFF;
 }
@@ -76,7 +77,16 @@ h2 {
   color: var(--white);
 }
 
-input {
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+select:hover {
+  border: 1.5px solid #FFA400;
+}
+
+.input {
   display: flex;
   justify-content: center;
 
@@ -88,9 +98,19 @@ input {
   border-radius: 4px;
 }
 
-input:nth-of-type(3) {
+input:focus {
+  border: 1.5px solid #FFA400;
+}
+
+input:nth-child(4) {
   color: var(--white);
   background-color: var(--yellow);
+}
+
+input:hover:nth-child(4) {
+  background-color: var(--yellow2);
+  transition: .60s;
+
 }
 
 #results {

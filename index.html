@@ -16,17 +16,21 @@
     <div id="temperatureCalculator">
       <div id="converter">
         <h2>Converter temperatura</h2>
-        <datalist id="temperaturesList">
+        <!-- <datalist id="temperaturesList">
           <option value="Grau Celsius"></option>
           <option value="Fahrenheit"></option>
           <option value="Kelvin"></option>
-        </datalist>
-        <input id="temperatures" type="text" list="temperaturesList" placeholder="Temperatura atual">
-        <input name="number" id="number" type="number">
-        <input id="calculate" type="submit" value="Converter">
+        </datalist> -->
+        <select class="input" id="temperatures" name="temperaturesList">
+          <option value="Grau Celsius">Grau Celsius</option>
+          <option value="Fahrenheit" selected>Fahrenheit</option>
+          <option value="Kelvin">Kelvin</option>
+        </select>
+        <input class="input" name="number" id="number" type="number">
+        <input class="input" id="calculate" type="submit" value="Converter">
       </div>
       <div id="results">
-        <h2 class="hidden">Resultados:</h2>
+        <h2 id="h2Results" class="hidden">Resultados:</h2>
         <p class="hidden" id="kelvin"></p>
         <p class="hidden" id="celsius"></p>
         <p class="hidden" id="fahrenheit"></p>

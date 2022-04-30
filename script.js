@@ -9,24 +9,30 @@ const btn = document.querySelector('#calculate');
 
 const results = document.querySelector(".results")
 
+const h2Results = document.querySelector("#h2Results")
+
+const kelvin = document.querySelector("#kelvin");
+const celsius = document.querySelector("#celsius");
+const fahrenheit = document.querySelector("#fahrenheit");
+
+
 
 btn.addEventListener('click', function (e) {
+ 
   e.preventDefault();
   
   const temperatures = document.querySelector("#temperatures");
-
+  
   const temperatureScale = temperatures.value;
   const number = document.querySelector("#number");
   const numberValue = number.value;
-
-  const kelvin = document.querySelector("#kelvin");
-  const celsius = document.querySelector("#celsius");
-  const fahrenheit = document.querySelector("#fahrenheit");
   
   
-
+  // h2Results.classList.toggle("hidden")
+  
+  
   if (temperatureScale == "Kelvin") {
-
+    
     const celsiusValue = numberValue - 273;
     const fahrenheitValue = (numberValue -273) * 1.8 + 32;
     fahrenheit.style.color = "#009FFD";
@@ -52,8 +58,8 @@ btn.addEventListener('click', function (e) {
     celsius.classList.toggle("hidden");
     kelvin.classList.toggle("hidden");
     fahrenheit.classList.add("hidden")
-
-   if (celsius.classList == "hidden" && kelvin.classList == "") {
+    
+    if (celsius.classList == "hidden" && kelvin.classList == "") {
       celsius.classList.remove("hidden")
     } else if (celsius.classList == "" && kelvin.classList == "hidden") {
       kelvin.classList.remove("hidden")
@@ -68,11 +74,20 @@ btn.addEventListener('click', function (e) {
     fahrenheit.classList.toggle("hidden")
     kelvin.classList.toggle("hidden")
     celsius.classList.add("hidden")
-
+    
     if (fahrenheit.classList == "" && kelvin.classList == "hidden") {
       kelvin.classList.remove("hidden")
     } else if (kelvin.classList == "" && fahrenheit.classList == "hidden") {
       fahrenheit.classList.remove("hidden")
     }
   }
+  
+  if (kelvin.classList == "" || celsius.classList == "" || fahrenheit.classList == "") {
+    h2Results.classList.remove("hidden")
+  } else if (kelvin.classList == "hidden" && celsius.classList == "hidden" && fahrenheit.classList == "hidden") {
+    h2Results.classList.add("hidden")
+  }
 })
+
+
+
