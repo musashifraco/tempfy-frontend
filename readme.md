@@ -1,7 +1,7 @@
 <h1 align="center">Tempfy</h1>
 
 <h2 align="center"> Use facilmente o conversor Tempfy para converter o valor da temperatura desejada!</h2>
-<img src="![tempfyy](https://user-images.githubusercontent.com/97633667/166121103-c5719d83-b617-480d-b4d3-e0c676973f4d.png)" />
+<img src="https://user-images.githubusercontent.com/97633667/166121103-c5719d83-b617-480d-b4d3-e0c676973f4d.png" />
 
 
 ## 💬 Sobre o projeto
@@ -28,5 +28,3 @@ $ git clone <https://github.com/musashifraco/Tempfy>
  <p>Ezequiel Brito Everton</p>
 </a>
 
-## 💙  Agradecimentos
-Obrigado [Rocketseat](https://www.rocketseat.com.br) por disponibilizar esse conteúdo de maneira acessível para que possamos decolar 🚀.
