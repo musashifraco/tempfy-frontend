@@ -114,6 +114,7 @@ input:hover:nth-child(4) {
 }
 
 .button {
+  color: var(--white);
   background-color: var(--yellow);
 }
 
