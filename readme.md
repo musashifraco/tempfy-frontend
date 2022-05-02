@@ -1,7 +1,7 @@
 <h1 align="center">Tempfy</h1>
 
 <h2 align="center"> Use facilmente o conversor Tempfy para converter o valor da temperatura desejada!</h2>
-<img src="https://github.com/musashifraco/Tempfy/issues/1#issue-1221911487" />
+<img src="https://user-images.githubusercontent.com/97633667/166121103-c5719d83-b617-480d-b4d3-e0c676973f4d.png" />
 
 
 ## 💬 Sobre o projeto
