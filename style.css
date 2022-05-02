@@ -113,6 +113,10 @@ input:hover:nth-child(4) {
 
 }
 
+.button {
+  background-color: var(--yellow);
+}
+
 #results {
   display: flex;
   flex-direction: column;
