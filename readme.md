@@ -28,5 +28,3 @@ $ git clone <https://github.com/musashifraco/Tempfy>
  <p>Ezequiel Brito Everton</p>
 </a>
 
-## 💙  Agradecimentos
-Obrigado [Rocketseat](https://www.rocketseat.com.br) por disponibilizar esse conteúdo de maneira acessível para que possamos decolar 🚀.
