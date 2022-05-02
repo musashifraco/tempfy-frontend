@@ -96,6 +96,8 @@ select:hover {
   height: 35px;
   padding: 0 15px 0 15px ;
   border-radius: 4px;
+  
+  background-color: var(--yellow);
 }
 
 input:focus {
